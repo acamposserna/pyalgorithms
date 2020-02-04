@@ -5,7 +5,7 @@ These implementations may be less efficient than the implementations in the Pyth
 
 ## Requirements
 
-* Python 3
+Python 3
 
 ## Development
 
