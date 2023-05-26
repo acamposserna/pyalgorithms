@@ -8,7 +8,7 @@ def bubbleSort(list):
     comparison sort, is named for the way smaller or larger elements "bubble"
     to the top of the list.
     
-    .. _More info: https://en.wikipedia.org/wiki/Bubble_sort
+    More info: https://en.wikipedia.org/wiki/Bubble_sort
     
     :param list: numbers to be sorted.
     :return: the same list sorted by ascending.
