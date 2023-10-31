@@ -13,6 +13,7 @@ Python 3
 
 * Bubble sort
 * Counting sort
+* Insertion sort
 
 ## Development
 

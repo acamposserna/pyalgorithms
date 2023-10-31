@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-def countingSort(list):
+def counting_sort(list):
     """
     In computer science, counting sort is an algorithm for sorting a collection
     of objects according to keys that are small integers; that is, it is an
@@ -9,12 +9,15 @@ def countingSort(list):
     
     More info: https://en.wikipedia.org/wiki/Counting_sort
     
-    :param list: numbers to be sorted.
-    :return: the same list sorted by ascending.
+    Args:
+        list (list): numbers to be sorted.
+
+    Returns:
+        list: the same list sorted by ascending.
     
     Examples:
-    >>> countingSort([3, 5, 1, 4, 2])
-    >>> [1, 2, 3, 4, 5]
+        >>> counting_sort([3, 5, 1, 4, 2])
+        >>> [1, 2, 3, 4, 5]
     """
     
     # If list is empty, return empty

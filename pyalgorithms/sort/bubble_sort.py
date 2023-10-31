@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-def bubbleSort(list):
+def bubble_sort(list):
     """
     Bubble sort, sometimes referred to as sinking sort, is a simple sorting
     algorithm that repeatedly steps through the list, compares adjacent
@@ -10,12 +10,15 @@ def bubbleSort(list):
     
     More info: https://en.wikipedia.org/wiki/Bubble_sort
     
-    :param list: numbers to be sorted.
-    :return: the same list sorted by ascending.
+    Args:
+        list (list): numbers to be sorted.
+    
+    Returns:
+        list: the same list sorted by ascending.
     
     Examples:
-    >>> bubbleSort([3, 5, 1, 4, 2])
-    >>> [1, 2, 3, 4, 5]
+        >>> bubble_sort([3, 5, 1, 4, 2])
+        >>> [1, 2, 3, 4, 5]
     """
     
     # If list is empty, return empty
