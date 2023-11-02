@@ -18,7 +18,7 @@ def insertion_sort(list):
     # If list is empty, return empty
     if (list == []):
         return []
-    
+
     # Get number of items
     length = len(list)
 
@@ -34,7 +34,7 @@ def insertion_sort(list):
         while j >= 0 and list[j] > item:
             list[j + 1] = list[j]
             j -= 1
-        
+
         list[j + 1] = item
-    
+
     return list

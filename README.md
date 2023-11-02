@@ -5,7 +5,9 @@ These implementations may be less efficient than the implementations in the Pyth
 
 ## Requirements
 
-Python 3
+* Python 3
+* Pycodestyle  
+*pip install pycodestyle*
 
 ## List of algorithms
 
@@ -14,6 +16,7 @@ Python 3
 * Bubble sort
 * Counting sort
 * Insertion sort
+* Merge sort
 
 ## Development
 

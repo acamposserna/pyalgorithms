@@ -1,7 +1,8 @@
 """
 This package contains the following sorting algorithms:
-    
-- Bubble Sort
-- Counting Sort
-- Insertion Sort
+
+- Bubble sort
+- Counting sort
+- Insertion sort
+- Merge sort
 """

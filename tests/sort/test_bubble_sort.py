@@ -3,6 +3,7 @@ import unittest
 
 from pyalgorithms.sort.bubble_sort import bubble_sort
 
+
 class bubbleSortTest(unittest.TestCase):
     def test_bubble_sort(self):
         list = [3, 5, 1, 4, 2]

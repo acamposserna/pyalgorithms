@@ -3,6 +3,7 @@ import unittest
 
 from pyalgorithms.sort.insertion_sort import insertion_sort
 
+
 class insertionSortTest(unittest.TestCase):
     def test_insertion_sort(self):
         list = [3, 5, 1, 4, 2]
